@@ -17,6 +17,11 @@
 3. Run the development server with `npm run dev`
 4. Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
+## Testing the App production build Locally
+
+1. Run `npm run build`
+2. Run `npm run preview`
+
 ---
 
 ## Metodologies
