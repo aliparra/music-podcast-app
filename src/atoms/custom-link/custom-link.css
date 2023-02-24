@@ -1,0 +1,21 @@
+.--large {
+	color: #646cff;
+	font-family: 'Poppins', Courier, monospace;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 2rem;
+	text-decoration: inherit;
+}
+
+.--medium {
+	color: #474fe6;
+	font-family: 'Times New Roman', Courier, monospace;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: #535bf2;
+}
