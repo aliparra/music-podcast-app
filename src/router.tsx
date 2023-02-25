@@ -2,10 +2,12 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Root from './routes/root/Root';
 import PodcastPage from '@/routes/podcast-page/PodcastPage';
 import EpisodePage from '@/routes/episode-page/EpisodePage';
+import NavBar from '@/molecules/nav-bar/NavBar';
 
 const NavbarWrapper = () => {
 	return (
 		<div>
+			<NavBar />
 			<Outlet />
 		</div>
 	);
