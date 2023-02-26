@@ -18,3 +18,10 @@
 .root__podcast__card {
 	cursor: pointer;
 }
+
+.root__input-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

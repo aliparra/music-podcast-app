@@ -5,6 +5,7 @@ import Card from '@/atoms/card/Card';
 import { useFetch } from '@/hooks/useFetch';
 import { useNavigate } from 'react-router-dom';
 import SearchInput from '@/atoms/search-input/SearchInput';
+import Counter from '@/atoms/counter/Counter';
 
 function Root() {
 	// The podcasts API url
@@ -69,10 +70,13 @@ function Root() {
 
 	return (
 		<div className="root">
-			<SearchInput
-				filterData={handleFilterList}
-				placeholder="Filter podcasts..."
-			/>
+			<div className="root__input-wrapper">
+				<Counter count={podcastList ? podcastList.length : 0} />
+				<SearchInput
+					filterData={handleFilterList}
+					placeholder="Filter podcasts..."
+				/>
+			</div>
 			<div className="root__podcast__wrapper">
 				{isLoading ? (
 					<div className="spinner-grow text-info" role="status">
