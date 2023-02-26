@@ -1,0 +1,20 @@
+.root {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 1rem;
+}
+
+.root__podcast__wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.root__podcast__card {
+	cursor: pointer;
+}
