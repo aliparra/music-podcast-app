@@ -1,0 +1,10 @@
+.count {
+	background-color: #2261d4;
+	border-radius: 10px;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	height: fit-content;
+	min-width: 70px;
+	text-align: center;
+}
