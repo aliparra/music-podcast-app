@@ -47,7 +47,7 @@
 	min-height: 200px;
 }
 
-h2 {
+.custom-card-info h2 {
 	max-width: 200px;
 	height: auto;
 	margin-bottom: 0px;
@@ -60,7 +60,7 @@ h2 {
 	font-weight: 500;
 }
 
-p {
+.custom-card-info p {
 	max-width: 200px;
 	margin-top: 10px;
 	word-wrap: break-word;
