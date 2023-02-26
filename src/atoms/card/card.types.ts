@@ -4,7 +4,7 @@ export type Image = {
 };
 
 export type CardPropTypes = {
-	image: Image;
+	image?: Image;
 	title: string;
 	author: string;
 };
