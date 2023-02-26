@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import { CardPropTypes } from '@/atoms/card/card.types';
 import './card.css';
+import { ReactElement } from 'react';
 
-const Card = ({ image, title, author }: CardPropTypes) => {
+const Card = ({ image, title, author }: CardPropTypes) : ReactElement => {
 	return (
 		<div className="card__wrapper">
 			<div className="custom-card">

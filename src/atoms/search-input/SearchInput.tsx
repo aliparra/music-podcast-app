@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { ReactElement, useState } from 'react';
 import PropTypes from 'prop-types';
 import { SearchInputProps } from '@/atoms/search-input/search-input.types';
 
-const SearchInput = ({ filterData, placeholder }: SearchInputProps) => {
+const SearchInput = ({
+	filterData,
+	placeholder,
+}: SearchInputProps): ReactElement => {
 	const [searchTerm, setSearchTerm] = useState('');
 
 	/**
