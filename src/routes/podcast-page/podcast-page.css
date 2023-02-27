@@ -1,0 +1,26 @@
+.podcast-page {
+	padding: 3rem;
+	display: grid;
+	grid-template-columns: 2fr 6fr 1fr;
+	grid-gap: 2rem;
+}
+
+.podcast-page__card {
+	max-width: 310px;
+	height: auto;
+}
+
+.podcast-page__card h3 {
+	padding: 5px;
+}
+.podcast-page__card p {
+	padding: 10px;
+}
+
+.podcast-page__episode-counter {
+	padding: 15px;
+	box-shadow: 0 0 5px #666666;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
