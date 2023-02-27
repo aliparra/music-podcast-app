@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 type FetchTypes = {
 	data: any;
 	isLoading: boolean;
-	hasError: null | boolean;
+	hasError: boolean;
 };
 
 // Declare custom hook
@@ -12,7 +12,7 @@ export const useFetch = (url: string) => {
 	const [state, setState] = useState<FetchTypes>({
 		data: null,
 		isLoading: true,
-		hasError: null,
+		hasError: false,
 	});
 
 	//FUNCTIONS
@@ -48,14 +48,14 @@ export const useFetch = (url: string) => {
 		// --store response in cache --
 		cache.put(
 			url,
-			new Response(JSON.stringify({ data: data, expirationDate }))
+			new Response(JSON.stringify({ data, expirationDate }))
 		);
 
 		// --set response in hook state --
 		setState({
 			data,
 			isLoading: false,
-			hasError: null,
+			hasError: false,
 		});
 	};
 
@@ -93,7 +93,7 @@ export const useFetch = (url: string) => {
 					setState({
 						data: cachedData.data,
 						isLoading: false,
-						hasError: null,
+						hasError: false,
 					});
 				}
 			} else {
