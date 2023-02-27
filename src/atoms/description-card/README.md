@@ -1,13 +1,13 @@
 # music-podcast-app
 
-## Card
+## DescriptionCard
 
 - A description card that displays an image (with url and description), a title an author and a description.
 
 ### Example
 
 ```tsx
-<Card
+<DescriptionCard
 	image={{
 		url: 'https://via.placeholder.com/150',
 		description: 'Image description',
