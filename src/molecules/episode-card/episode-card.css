@@ -1,0 +1,27 @@
+.episode-card {
+	box-shadow: 0 0 5px 1px #666666;
+	padding: 30px;
+	max-width: 800px;
+}
+
+.episode-card h2 {
+	font-weight: 500;
+}
+
+.episode-card p {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.episode-card audio {
+	width: 100%;
+	filter: saturate(50%) grayscale(1) contrast(99%) invert(80%);
+}
+
+.episode-card hr {
+	margin: 1.5rem 0rem;
+}
+
+.--blue {
+	color: rgb(73, 73, 189);
+}
