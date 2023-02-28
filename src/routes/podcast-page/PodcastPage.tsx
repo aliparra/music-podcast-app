@@ -9,7 +9,9 @@ import './podcast-page.css';
 function PodcastPage(): JSX.Element {
 	const { podcastId } = useParams<{ podcastId: string }>();
 	const podcastsUrl = `https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json`;
-	const episodesUrl = `https://itunes.apple.com/lookup?id=${podcastId}&entity=podcastEpisode`;
+	const episodesUrl = `https://itunes.apple.com/search?term=${localStorage.getItem(
+		'podcastTitle'
+	)}&entity=podcastEpisode`;
 
 	const {
 		data: episodeData,

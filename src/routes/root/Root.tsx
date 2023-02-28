@@ -25,7 +25,8 @@ function Root() {
 	const navigate = useNavigate();
 
 	// A function to navigate to a specific podcast getting the podcast id
-	const handleClick = (id: string) => {
+	const handleClick = (id: string, title: string) => {
+		localStorage.setItem('podcastTitle', title);
 		navigate(`/podcast/${id}`);
 	};
 
@@ -53,7 +54,9 @@ function Root() {
 				<div
 					className={'root__podcast__card'}
 					key={entry.id.attributes['im:id']}
-					onClick={() => handleClick(entry.id.attributes['im:id'])}
+					onClick={() =>
+						handleClick(entry.id.attributes['im:id'], entry?.title?.label)
+					}
 				>
 					<Card
 						image={{
