@@ -7,6 +7,19 @@
 ### Example
 
 ```tsx
+
+//Basic example (Default image, no redirection)
+<DescriptionCard
+	title="Title example"
+	author="Author name"
+	description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, dolor impedit vero laboriosam ipsa beatae ducimus nesciunt excepturi"
+/>;
+
+//Complete example
+const redirectSomewhere = () => {
+	console.log('redirect!)
+};
+
 <DescriptionCard
 	image={{
 		url: 'https://via.placeholder.com/150',
@@ -15,7 +28,8 @@
 	title="Title example"
 	author="Author name"
 	description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, dolor impedit vero laboriosam ipsa beatae ducimus nesciunt excepturi"
-/>
+	handleRedirection={redirectSomewhere}
+/>;
 ```
 
 ## Author

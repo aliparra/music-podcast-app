@@ -1,3 +1,5 @@
+import { MouseEventHandler } from 'react';
+
 export type Image = {
 	url: string;
 	description: string;
@@ -8,4 +10,5 @@ export type DescriptionCardProps = {
 	title: string;
 	author: string;
 	description: string;
+	handleRedirection?: MouseEventHandler<HTMLDivElement>;
 };
