@@ -19,7 +19,7 @@
 
 .podcast-table tr {
 	height: fit-content;
-	padding: 0.5rem 0rem;
+	padding: 1rem;
 	border-bottom: 2px solid #d8d7d7;
 	display: grid;
 	grid-template-columns: 6fr 1fr 1fr;
