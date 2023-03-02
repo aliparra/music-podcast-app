@@ -28,6 +28,7 @@
 
 ## Metodologies
 
+- This project uses vite as build tool
 - This project is developed with typescript
 - This project use atomic design methodology, you can check more info about this [here](https://bradfrost.com/blog/post/atomic-web-design/).
 - This project use BEM CSS metodology. You can check more info about this [here](https://getbem.com/introduction/).
