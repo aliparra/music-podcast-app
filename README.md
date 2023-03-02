@@ -34,6 +34,14 @@
 
 ---
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/61117650/222373996-5b08df17-b48d-4d89-adf3-baf6f7921e35.png)
+![image](https://user-images.githubusercontent.com/61117650/222374024-38495c81-1901-4002-8126-c3fe5a40313a.png)
+![image](https://user-images.githubusercontent.com/61117650/222374044-539bcab6-5eac-4d1c-a741-3ced22486bcf.png)
+![image](https://user-images.githubusercontent.com/61117650/222374067-1db15641-d34e-4561-a7c7-aa5536ba0b97.png)
+
+
 ## Author
 
 With ❤️ by [Alicia Parra](https://github.com/aliparra)
