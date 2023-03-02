@@ -1,5 +1,7 @@
 # Music podcast app
 
+> :sparkles: *Try the app* live [here](https://react-music-podcast-app-1.onrender.com/)
+
 ## This music podcast application consists of three different views:
 
 - General view: From here you can filter and consult the 100 most popular podcasts according to apple's list.
